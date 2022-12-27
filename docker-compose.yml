@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  api:
+      build: ./Name-api
+      ports:
+        - 80:80
+  code:
+      build: ./notebooks
+      ports:
+        - 8888:8888
